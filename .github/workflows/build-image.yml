@@ -7,8 +7,8 @@ env:
 
 jobs:
   push_to_registry:
-    name: Push Docker image to Docker Hub
-    runs-on: debian-latest
+    name: Push container image to the Container registry
+    runs-on: ubuntu-latest
     permissions:
       packages: write
       contents: read
