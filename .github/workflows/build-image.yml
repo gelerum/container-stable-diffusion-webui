@@ -3,7 +3,6 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: stable-diffusion-webui
 
 jobs:
   push_to_registry:
