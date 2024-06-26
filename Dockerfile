@@ -8,4 +8,4 @@ RUN apt-get install -y libgl1 libglib2.0-0
 
 EXPOSE 7860
 
-CMD ["python", "launch.py", "--no-download-sd-model", "--do-not-download-clip", "--xformers"]
+CMD ["python", "launch.py", "--listen 0.0.0.0", "--no-download-sd-model", "--do-not-download-clip", "--xformers"]
