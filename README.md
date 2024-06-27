@@ -2,11 +2,11 @@
 
 ## Prelude
 User wants to have a direct access to some files and directories:
-- configs
-- embeddings
-- extensions
-- models
-- outputs
+- configs/
+- embeddings/
+- extensions/
+- models/
+- outputs/
 - config.json
 - ui-config.json
 
