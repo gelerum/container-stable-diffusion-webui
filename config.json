@@ -230,7 +230,7 @@
     "interrupt_after_current": true,
     "localization": "None",
     "quicksettings_list": [
-        "sd_model_checkpoint",
+        "sd_model_checkpoint"
     ],
     "ui_tab_order": [],
     "hidden_tabs": [],
