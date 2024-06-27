@@ -1,4 +1,5 @@
 # Installation
+
 ## Prelude
 User wants to have a direct access to some files and directories:
 - configs
@@ -8,7 +9,9 @@ User wants to have a direct access to some files and directories:
 - outputs
 - config.json
 - ui-config.json
+
 You should manually create the directories above and put `config.json` and `ui-config.json` files from this repository near the created directories.
+
 ## Command
 ``` bash
 docker run --gpus all --net=host \
