@@ -14,7 +14,7 @@ You should manually create the directories above and put `config.json` and `ui-c
 
 ## Command
 ``` bash
-docker run --gpus all --net=host \
+docker run --gpus all --net host \
 -v /your_files/configs:/stable-diffusion-webui/configs \
 -v /your_files/embeddings:/stable-diffusion-webui/embeddings \
 -v /your_files/extensions:/stable-diffusion-webui/extensions \
